@@ -38,6 +38,10 @@
            out of ${data.length} items`
         );
       })
-      .catch(console.err);};const test = function test() {
-      const articlesRaw = fs.readFileSync('data.json');
-      bulkIndex('library', 'article', articles);};
+      .catch(console.err);
+      };
+      
+      const test = function test() {
+          const articlesRaw = fs.readFileSync('data.json');
+          bulkIndex(index, type, arr);
+      };
